@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/*    home page design  */
+/*     home     */
 .home {
   display: flex;
   flex-direction: column;
@@ -46,7 +46,7 @@
 .home-right img {
   height: 600px;
 }
-/*    blog part design   */
+/*       blog part design       */
 .blog {
   margin-top: 30px;
   display: flex;
@@ -64,7 +64,6 @@
   row-gap: 10px;
   column-gap: 10px;
 }
-/*    blog left part   */
 .left-blog {
   display: flex;
   flex-direction: column;
@@ -93,52 +92,45 @@
   font-weight: 600;
 }
 
-.page button:visited {
+.page a:visited button {
   background-color: brown;
 }
-/*     blog right part    */
+
 .right-blog-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 15px;
   column-gap: 15px;
 }
-.card {
-  box-sizing: 10px;
-  padding: 10px;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
-    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+.match {
+  border: 1px solid;
+  padding: 35px 25px;
   border-radius: 10px;
-  padding-bottom: 20px;
 }
-.card img {
-  width: 100%;
-  margin-bottom: 20px;
-}
-.card button {
-  padding: 3px 6px;
-  color: black;
-  font-size: 1.5rem;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-.card h1 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-.icon {
+.country {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.icon i {
-  margin-right: 10px;
+.country p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 10px;
 }
-.icon p {
-  margin-right: 20px;
+.detals {
+  margin-top: 25px;
+  text-align: center;
 }
-.icon fa-message {
-  margin-right: 10px;
+.detals h1 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
 }
-/*       footer      */
+.detals p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 footer {
   margin-top: 40px;
   width: 100%;
@@ -179,8 +171,7 @@ footer {
   color: white;
 }
 
-/*     reponsive for mobile design   */
-
+/*         responsive for         */
 @media screen and (max-width: 687px) {
   .home-element {
     width: 90%;
@@ -231,9 +222,7 @@ footer {
     flex-direction: column;
   }
 }
-
-/*    responsive for tab     */
-
+/*    reponsive for mobile      */
 @media screen and (min-width: 688px) and (max-width: 992px) {
   .home-element {
     width: 90%;
