@@ -192,10 +192,15 @@ footer {
     text-align: center;
   }
   .home-left h1 {
+    animation: none;
     font-size: 2rem;
   }
   .home-left p {
+    animation: none;
     text-overflow: ellipsis;
+  }
+  .home-left button {
+    animation: none;
   }
   .home-right {
     padding: 20px;
